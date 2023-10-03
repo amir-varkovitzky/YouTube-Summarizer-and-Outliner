@@ -128,7 +128,7 @@ function displayError(error) {
     container.id = "content";
 
     // Display the error message in the message container
-    content.innerHTML = `<div class = "error">${error}</div>`;
+    container.innerHTML = `<div class = "error">${error}</div>`;
 
     // Get a reference to the script tag
     const scriptTag = document.querySelector('script[src="popup.js"]');

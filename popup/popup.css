@@ -53,7 +53,7 @@ h1 {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
   border: none;
   background-color: #0078d4;
   color: #fff;
@@ -61,17 +61,15 @@ button {
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  flex: 1;
-  /* Make all buttons in the row have the same width */
+  flex: 1; /* Make all buttons in the row have the same width */
 }
 
 #buttonContainer {
   padding: 0 1rem 0 1rem;
 }
 
-button:last-child {
-  flex-basis: 100%;
-  /* Make the fourth item take the full width of the row */
+button:nth-child(4) {
+  flex-basis: 100%; /* Make the copy button take the full width of the row */
 }
 
 button:hover {
