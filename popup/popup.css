@@ -48,7 +48,7 @@ body,
 h1 {
   font-size: 24px;
   color: #333;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -65,7 +65,7 @@ button {
 }
 
 #buttonContainer {
-  padding: 0 1rem 0 1rem;
+  padding: 0 !important;
 }
 
 button:nth-child(4) {
@@ -83,6 +83,10 @@ button:hover {
   gap: 1rem;
   width: max-content;
   justify-content: center;
+}
+
+.padding-top {
+  padding-top: 1rem;
 }
 
 .error {

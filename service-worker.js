@@ -56,6 +56,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       console.error('Error: Transcript not found');
       return;
     }
+    console.log("sending transcript to OpenAI:", `\n${message.transcript}`);
     sendTranscriptToOpenAI(message.transcript, message.action);
   }
 });

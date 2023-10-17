@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Please open a YouTube video and try again.");
             const popupWindows = document.getElementsByClassName("popupWindow");
             if (popupWindows.length > 0) {
-                popupWindows[0].innerHTML = "Please open a YouTube video and try again.";
+                popupWindows[0].innerHTML = `<div class="padding-top">Please open a YouTube video and try again.</div>`;
             }
         }
         else {
@@ -128,7 +128,7 @@ function displayError(error) {
     container.id = "content";
 
     // Display the error message in the message container
-    container.innerHTML = `<div class = "error">${error}</div>`;
+    container.innerHTML = `<div class="error">${error}</div>`;
 
     // Get a reference to the script tag
     const scriptTag = document.querySelector('script[src="popup.js"]');
