@@ -1,6 +1,6 @@
 # YouTube Summarizer & Outliner
 
-#### Video Demo: [Watch the Demo](<URL HERE>)
+## Video Demo: [Watch the Demo](<URL HERE>)
 
 ## Description
 
