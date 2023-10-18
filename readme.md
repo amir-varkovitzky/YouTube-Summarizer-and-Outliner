@@ -46,9 +46,9 @@ Using the YouTube Summarizer & Outliner is straightforward:
 
 3. In the extension popup, you'll find three buttons: "Outline," "Summarize," and "Transcript."
 
-4. Click the desired button, and the extension will start processing the video content.
+4. Click the desired button, and the extension will start processing the video's transcript.
 
-5. Once processing is complete, you'll see the results displayed in the popup. If for some reason something went wrong, you will see a detailed error message in the extension popup.
+5. Once processing is complete, you'll see the results displayed in the popup. In the event of an error, a detailed error message will appear in the extension popup, as well as in the popup DevTools console.
 
 6. To copy the generated content or transcript to your clipboard, click the "Copy to clipboard" button.
 
