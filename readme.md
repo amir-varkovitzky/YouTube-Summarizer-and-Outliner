@@ -18,7 +18,7 @@ The **YouTube Summarizer & Outliner** is a Chrome extension that harnesses the p
 
 5. **Timestamp Links:** In the generated outline or transcript, you can click on timestamps to instantly jump to specific parts of the video. This allows you to directly access the relevant content.
 
-6. **Session storing:** The extension retains the outcomes of your interactions within the current extension's session, allowing you to access them until you refresh the extension, use it for another video, or close the browser. This feature ensures that your generated summaries, outlines, or transcripts remain conveniently accessible during your browsing session. The reason I went with session storage instead of local, is that local storage requires further permsissions, and it might give you data based on an old video now changed.
+6. **Session storing:** The extension retains the outcomes of your interactions within the current extension's session, allowing you to access them until you refresh the extension, use it for another video, or close the browser. This feature ensures that your generated summaries, outlines, or transcripts remain conveniently accessible during your browsing session. The reason I went with session storage instead of local storage, is to avoid requesting further permsissions, and to prevent potential data inconsistencies stemming from older videos.
 
 ### Installation
 
@@ -58,7 +58,7 @@ Using the YouTube Summarizer & Outliner is straightforward:
 
 - **JavaScript:** The core language used for the extension's functionality.
 - **Chrome Extension API:** Leveraged to create the extension and interact with the browser.
-- **OpenAI API:** GPT-3.5 Turbo 16k used for text summarization and outlining. Notice that in the demo I used the API key given with an OpenAI API free trial, GPT-3.5 Turbo 16k, but with a paid API key, the limit is lifted and one can use the extension for much lengthier videos.
+- **OpenAI API:** GPT-3.5 Turbo 16k used for text summarization and outlining. Please note that during the demo, I used the API key given with an OpenAI API free trial, GPT-3.5 Turbo 16k. However, with a paid API key, the limitations are lifted, enabling the extension to handle much lengthier videos.
 
 ## Project Files
 
@@ -78,7 +78,7 @@ Here's a brief overview of the files included in this project and their respecti
 
 - **LICENSE:** This file contains the licensing information for the project. It's licensed under the MIT License.
 
-- **README.md:** The file you're currently reading! It provides detailed information about the project, installation instructions, and an overview of each project file.
+- **README.md:** The file you're currently reading, which provides detailed information about the project, installation instructions, and an overview of each project file.
 
 ### Credits
 
