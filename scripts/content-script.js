@@ -77,6 +77,7 @@ chrome.runtime.onMessage.addListener(async function (message, sender, sendRespon
 
       // Send the message object with the transcript
       chrome.runtime.sendMessage({ action: message.action, transcript });
+      console.log("Message sent to service-worker.js", message.action);
     } catch (error) {
       console.error(error);
       // Send the error message to the popup script
