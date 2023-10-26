@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = 'OPENAI_API_KEY_HERE';
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 
 // Function to send the transcript to OpenAI API for summarization or outlining
