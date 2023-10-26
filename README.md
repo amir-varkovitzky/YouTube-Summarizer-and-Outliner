@@ -74,7 +74,7 @@ Here's a brief overview of the files included in this project and their respecti
 
 - **content.js:** This content script is injected into the YouTube video page when the extension is activated. It interacts with the YouTube video player, captures video details, and communicates with both the popup.js and service-worker.js script to trigger the AI-powered summarization, outlining, and transcript retrieval.
 
-- **service-worker.js:** The service worker is responsible for handling requests and background tasks. In this project, it manages communication with the OpenAI API for text summarization and outlining. You'll find your OpenAI API key configured in this file..
+- **service-worker.js:** The service worker is responsible for handling requests and background tasks. In this project, it manages communication with the OpenAI API for text summarization and outlining. You'll find your OpenAI API key configured in this file.
 
 - **LICENSE:** This file contains the licensing information for the project. It's licensed under the MIT License.
 
