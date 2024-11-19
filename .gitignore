@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Unnecessary files
+icons_old/
