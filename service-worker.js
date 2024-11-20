@@ -7,9 +7,9 @@ const modelName = "gpt-4o-mini";
 // Function to send the transcript to GitHub Models API for summarization or outlining
 async function sendTranscriptToGitHubModels(transcript, action) {
   const outline =
-    "Outline the provided text. your response must include timestamps, and highlight main ideas, arguments, and evidence with clear headings and subheadings, provided as plain text.";
+    "Outline the provided text. your response must highlight main ideas, arguments, and evidence with clear headings and subheadings, each of which must include timestamps. provide the output as plain text, with no Markdown formatting.";
   const summarize =
-    "Summarize the provided text, capturing its main ideas, key arguments, and supporting evidence in a clear, concise and comprehensive manner.";
+    "Summarize the provided text, capturing its main ideas, key arguments, and supporting evidence in a clear, concise and comprehensive manner. provide the output as plain text, with no Markdown formatting. You may use bullet points or numbered lists to organize your response.";
 
   try {
     const client = new OpenAI({ baseURL: endpoint, apiKey: token });
