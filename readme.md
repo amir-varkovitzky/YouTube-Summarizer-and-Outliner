@@ -30,7 +30,7 @@ To install the updated version of the YouTube Summarizer & Outliner extension:
 
 ```bash
 git clone -b github-models https://github.com/amir-varkovitzky/YouTube-Summarizer-and-Outliner.git
-cd <repository-folder>
+cd YouTube-Summarizer-and-Outliner
 ```
 
 ### Set Up the Environment
